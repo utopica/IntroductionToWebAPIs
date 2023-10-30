@@ -1,5 +1,6 @@
 ﻿using IntroductionToWebAPIs.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,23 @@ namespace IntroductionToWebAPIs.Persistence.Context
         {
             optionsBuilder.UseNpgsql(Configurations.GetStringFromJson("ConnectionStrings:PostgreSQL"));
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //trying to deactivete default primarykey for Id
+
+
+            modelBuilder.Entity<User>()
+                .HasKey(x => x.Id);    
+
+            modelBuilder.Entity<User>()
+                .Property(x => x.Id)
+                .ValueGeneratedNever();
+
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 
-    
+
 }

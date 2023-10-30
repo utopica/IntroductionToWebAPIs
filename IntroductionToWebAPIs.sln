@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{43689578-D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8EFEEC5B-2DBC-4D78-A5EA-87D3A53879F0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{281C819E-7E54-451D-B782-FEBB2047ED4E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{281C819E-7E54-451D-B782-FEBB2047ED4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionToWebAPIs.Domain", "Core\IntroductionToWebAPIs.Domain\IntroductionToWebAPIs.Domain.csproj", "{E9A2B8C8-2930-4B24-8235-3E3732F8EB87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroductionToWebAPIs.Domain", "Core\IntroductionToWebAPIs.Domain\IntroductionToWebAPIs.Domain.csproj", "{E9A2B8C8-2930-4B24-8235-3E3732F8EB87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionToWebAPIs.Persistence", "Infrastructure\IntroductionToWebAPIs.Persistence\IntroductionToWebAPIs.Persistence.csproj", "{6D02DE7A-0D4D-46BB-B0AE-1A749B1C81FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroductionToWebAPIs.Persistence", "Infrastructure\IntroductionToWebAPIs.Persistence\IntroductionToWebAPIs.Persistence.csproj", "{6D02DE7A-0D4D-46BB-B0AE-1A749B1C81FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionToWebAPIs.Api", "Presentation\IntroductionToWebAPIs.Api\IntroductionToWebAPIs.Api.csproj", "{FED91B68-AC7E-4AA5-8F50-989928DEDD7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroductionToWebAPIs.Api", "Presentation\IntroductionToWebAPIs.Api\IntroductionToWebAPIs.Api.csproj", "{FED91B68-AC7E-4AA5-8F50-989928DEDD7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
